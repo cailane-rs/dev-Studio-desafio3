@@ -1,0 +1,17 @@
+.cabecalho-opcoes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+    margin-top: 2.5rem;
+}
+
+.cabecalho-link {
+    margin-right: 3rem;
+    width: auto;
+    height: 1rem;
+}
+
+.cabecalho-link a {
+    text-decoration: none;
+    color: #000000;
+}
