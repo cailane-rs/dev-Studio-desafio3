@@ -6,7 +6,7 @@
     --azul-botao: #2639ED;
     --fonte-subtitulo: 2.5em;
     --cinza-texto: #757575;
-    --fonte: "'Comfortaa', cursive";
+    --fonte: 'Comfortaa';
 }
 
 body {
@@ -22,7 +22,6 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-right: 13%;
-    /* margin-left: 0; */
     margin-top: 2.5rem;
 }
 
@@ -30,7 +29,7 @@ body {
     margin-right: 3em;
     width: auto;
     height: 1rem;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);
 }
 
 .cabecalho-link a {
@@ -38,20 +37,20 @@ body {
     color: var(--preto);
 }
 
-/* Título */
 .titulo {
     font-size: 28px;
     padding-top: .7em;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);
 }
 
 .subtitulo {
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);  
     font-size: 40px;
 }
 
 .paragrafo {
-    color:var(--cinza-texto)
+    color:var(--cinza-texto);
+    font-family: var(--fonte);
 }
 
 .sobre {
@@ -134,16 +133,8 @@ body {
 
 .diferenciais > div > p {
     padding-top: 1em;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);
 }
-/* 
-.cards {
-    width: 60%;
-}
-
-.cards-diferenciais {
-    background-image:url(card-branco.png);
-} */
 
 .footer {
     display: flex;
@@ -161,17 +152,17 @@ body {
 .footer-paragrafo {
     width: auto;
     margin-bottom: 1.5em;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);
 }
 
 .footer-colunas {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);
 }
 
 .colunas-titulo {
     margin-bottom: 1.5em;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte);
 }
