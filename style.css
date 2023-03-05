@@ -59,11 +59,11 @@ body {
     justify-content:space-between;
 }
 
-.sobre-sobre {
+.sobre-conteudo {
     display: flex;
     flex-direction: column;
     position: relative;
-    max-width: 40%;
+    width: 33%;
 }
 
 .sobre-title {
@@ -84,10 +84,11 @@ body {
     padding: 1em 2em;
     border-radius: 60px;
     border: none;
+    width: 50%;
 }
 
 .sobre-image {
-    max-width: 60%;
+    width: 70rem;
 
 }
 
