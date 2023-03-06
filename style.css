@@ -26,7 +26,7 @@ body {
 }
 
 .cabecalho-link {
-    margin-right: 3em;
+    margin-right: 6em;
     width: auto;
     height: 1rem;
     font-family: var(--fonte);
@@ -63,7 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 33%;
+    width: 28%;
 }
 
 .sobre-title {
@@ -84,7 +84,7 @@ body {
     padding: 1em 2em;
     border-radius: 60px;
     border: none;
-    width: 50%;
+    width: 45%;
 }
 
 .sobre-image {
@@ -103,12 +103,13 @@ body {
     margin-left: 8%;
     display:flex;
     flex-direction: column;
+    width: 15%;
 }
 
 
-.conteudo > div > p {
+.clientes-description {
     padding-top: 1em;
-    color: var(--cinza-texto);
+    width: 100%;
 }
 
 
@@ -117,7 +118,7 @@ body {
     width: 60%;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    margin-right: 8%;
 }
 
 .diferenciais {
