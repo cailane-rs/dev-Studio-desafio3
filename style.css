@@ -128,14 +128,23 @@ body {
     justify-content: space-between;
 }
 
+.background-diferenciais {
+    background-image: url(retangulo-azul-diferenciais.png);
+    background-position: right center;
+}
+
 .diferenciais-conteudo {
     display:flex;
     flex-direction: column;
 }
 
-.diferenciais > div > p {
-    padding-top: 1em;
-    font-family: var(--fonte);
+.diferenciais-title {
+    width: 50%;
+}
+
+.diferenciais-paragrafo {
+    padding-top: 2em;
+    width: 60%;
 }
 
 .footer {
