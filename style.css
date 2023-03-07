@@ -153,13 +153,13 @@ body {
 }
 
 .diferenciais-title {
-    width: 50%;
+    width: 80%;
     font-weight: bold;  
 }
 
 .diferenciais-paragrafo {
     padding-top: 3em;
-    width: 60%;
+    width: 90%;
 }
 
 .quadrado-azul {
@@ -186,17 +186,29 @@ body {
     left: 125px;
     z-index: -2;
 }
-/* .cards-diferenciais {
-    width: 50%;
-} 
 
-.card1 {
-    background-image: url(card-branco.png);
-    background-repeat: no-repeat;
-    background-size:initial;
-    height: 50%; 
-}  */
+.diferenciais-banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-right: 10%;
+}
 
+.cards-diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 308px;
+    height: 379px;
+    background: var(--branco);
+    border-radius: 40px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
 .footer {
     display: flex;
     margin: 8%;
