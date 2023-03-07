@@ -13,6 +13,10 @@ body {
     background: var(--branco);
 }
 
+.conteudo {
+    position: relative;
+}
+
 .container-conteudo-topo {
     margin-left: 8%;
 }
@@ -21,12 +25,12 @@ body {
 .cabecalho-opcoes {
     display: flex;
     justify-content: flex-end;
-    margin-right: 13%;
+    margin-right: 5%;
     margin-top: 2.5rem;
 }
 
 .cabecalho-link {
-    margin-right: 6em;
+    margin-right: 4em;
     width: auto;
     height: 1rem;
     font-family: var(--fonte);
@@ -63,7 +67,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 28%;
+    width: 37vw;
 }
 
 .sobre-title {
@@ -84,11 +88,11 @@ body {
     padding: 1em 2em;
     border-radius: 60px;
     border: none;
-    width: 45%;
+    width: 50%;
 }
 
 .sobre-image {
-    width: 70rem;
+    width: 45vw;
 
 }
 
@@ -99,7 +103,7 @@ body {
     justify-content: space-between;
 }
 
-.conteudo {
+.clientes-texto {
     margin-left: 8%;
     display:flex;
     flex-direction: column;
@@ -122,30 +126,62 @@ body {
 }
 
 .diferenciais {
-    margin: 10% 0 10% 8%;
-    width: 92%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 867px;
+    width: 92%;
+    margin: 10% 0;
+    padding-left: 8%;
 }
 
-.background-diferenciais {
-    background-image: url(retangulo-azul-diferenciais.png);
-    background-position: right center;
+
+.diferenciais-texto {
+    position: relative;
 }
 
-.diferenciais-conteudo {
-    display:flex;
-    flex-direction: column;
+.quadrado-rosa {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: -36px;
+    top: -60px;
+
+    background: #FFF5DB;
+    border-radius: 100px 0px 0px 0px;
+    z-index: -1;
 }
 
 .diferenciais-title {
     width: 50%;
+    font-weight: bold;  
 }
 
 .diferenciais-paragrafo {
-    padding-top: 2em;
+    padding-top: 3em;
     width: 60%;
 }
+
+.quadrado-azul {
+    position: absolute;
+    width: 1047px;
+    height: 619px;
+    right: 0;
+    background: #cce1fa;
+    border-radius: 150px 0px 0px 0px;
+
+    z-index: -1;
+}
+/* .cards-diferenciais {
+    width: 50%;
+} 
+
+.card1 {
+    background-image: url(card-branco.png);
+    background-repeat: no-repeat;
+    background-size:initial;
+    height: 50%; 
+}  */
 
 .footer {
     display: flex;
