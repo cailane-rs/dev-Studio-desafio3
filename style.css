@@ -210,13 +210,16 @@ body {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
 }
 
-.quadrado-1 {
+.quadrado {
     display: flex;
     justify-content: center;
     width: 121px;
     height: 121px;
-    background: #F1F7FF;
     border-radius: 20px;
+}
+
+#quadrado-1 {
+    background: #F1F7FF;
 }
 
 .diferenciais-card-titulo {
@@ -232,6 +235,18 @@ body {
     color: var(--cinza-texto);
     text-align: center;
     line-height: 1.5rem;
+}
+
+#quadrado-2 {
+    background: #FFF2F8;
+}
+
+#quadrado-3 {
+    background: #FFF7E3;
+}
+
+#quadrado-4 {
+    background: #DEFFEE;
 }
 
 /* Footer */
