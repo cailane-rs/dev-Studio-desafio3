@@ -5,6 +5,7 @@
     --preto: #000000;
     --azul-botao: #2639ED;
     --fonte-subtitulo: 2.5em;
+    --tamanho-h3: 24px;
     --cinza-texto: #757575;
     --fonte: 'Comfortaa';
 }
@@ -190,6 +191,7 @@ body {
 .diferenciais-banner {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     padding-right: 10%;
@@ -206,6 +208,30 @@ body {
     border-radius: 40px;
     border: 1px solid #F2F2F2;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+.quadrado-1 {
+    display: flex;
+    justify-content: center;
+    width: 121px;
+    height: 121px;
+    background: #F1F7FF;
+    border-radius: 20px;
+}
+
+.diferenciais-card-titulo {
+    font-size: var(--tamanho-h3);
+    text-align: center;
+    line-height: 2rem;
+    margin: 1.3rem 3rem 1rem 3rem;
+    font-family: var(--fonte);
+}
+
+.diferenciais-card-paragrafo {
+    font-family: var(--fonte);
+    color: var(--cinza-texto);
+    text-align: center;
+    line-height: 1.5rem;
 }
 
 /* Footer */
