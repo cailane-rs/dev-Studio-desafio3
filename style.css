@@ -139,6 +139,7 @@ body {
 
 .diferenciais-texto {
     position: relative;
+    width: 45%;
 }
 
 .quadrado-rosa {
@@ -191,9 +192,11 @@ body {
 .diferenciais-banner {
     display: flex;
     flex-direction: column;
+    align-content: flex-end;
     flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
+    gap: 30px 34px;
+    width: 70%;
+    height: 108%;
     padding-right: 10%;
 }
 
@@ -208,6 +211,10 @@ body {
     border-radius: 40px;
     border: 1px solid #F2F2F2;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+#card-1 {
+    margin-top: 79px;
 }
 
 .quadrado {
