@@ -51,6 +51,7 @@ body {
 .subtitulo {
     font-family: var(--fonte);  
     font-size: 40px;
+    font-weight: bold;
 }
 
 .paragrafo {
@@ -132,7 +133,7 @@ body {
     position: relative;
     height: 867px;
     width: 92%;
-    margin: 10% 0;
+    margin: 8% 0 6% 0;
     padding-left: 8%;
 }
 
@@ -156,7 +157,6 @@ body {
 
 .diferenciais-title {
     width: 80%;
-    font-weight: bold;  
 }
 
 .diferenciais-paragrafo {
@@ -164,7 +164,7 @@ body {
     width: 90%;
 }
 
-.quadrado-azul {
+.quadrado-azul-diferenciais {
     position: absolute;
     width: 1047px;
     height: 619px;
@@ -285,9 +285,36 @@ body {
     z-index: 2;
 }
 
+.circulo-amarelo {
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    z-index: -2;
+    top: 75%;
+    left: 40%;
+    border-radius: 323232%;
+    background: #FFF5DB;
+}
+
 .objetivo-texto {
     width: 40%;
 }
+
+.paragrafo-objetivo {
+    margin-top: 1rem;
+}
+
+.quadrado-azul-objetivo {
+    position: absolute;
+    z-index: -1;
+    width: 178px;
+    height: 178px;
+    top: 19%;
+
+    background: #dfe2f8;
+    border-radius: 0px 0px 100px 0px;
+}
+
 
 /* Footer */
 .footer {
