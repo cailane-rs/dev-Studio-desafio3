@@ -256,6 +256,39 @@ body {
     background: #DEFFEE;
 }
 
+/* Objetivo */
+.objetivo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 436px;
+    padding: 0 8%;   
+}
+
+.objetivo-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo-imagem {
+    position: relative;
+    width: 550px;
+    height: 372px;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+}
+
+.botao-video {
+    position: absolute;
+    z-index: 2;
+}
+
+.objetivo-texto {
+    width: 40%;
+}
+
 /* Footer */
 .footer {
     display: flex;
