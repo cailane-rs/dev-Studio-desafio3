@@ -297,11 +297,16 @@ body {
 }
 
 .objetivo-texto {
-    width: 40%;
+    width: 50%;
+}
+
+.titulo-objetivo {
+    width: 70%;
 }
 
 .paragrafo-objetivo {
     margin-top: 1rem;
+    line-height: 1.5rem;
 }
 
 .quadrado-azul-objetivo {
@@ -309,7 +314,8 @@ body {
     z-index: -1;
     width: 178px;
     height: 178px;
-    top: 19%;
+    top: 15%;
+    right: 40%;
 
     background: #dfe2f8;
     border-radius: 0px 0px 100px 0px;
