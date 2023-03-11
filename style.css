@@ -417,9 +417,15 @@ body {
 }
 
 .footer-paragrafo {
-    width: auto;
+    width: 85%;
+    line-height: 1.5rem;
     margin-bottom: 1.5em;
-    font-family: var(--fonte);
+}
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
 }
 
 .footer-colunas {
