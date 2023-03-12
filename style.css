@@ -407,12 +407,18 @@ body {
     display: flex;
     margin: 8%;
     justify-content: space-between;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    height: 50%;
+
 }
 
 .texto-icones {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     width: 30%;
 }
 
@@ -431,11 +437,20 @@ body {
 .footer-colunas {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     font-family: var(--fonte);
 }
 
-.colunas-titulo {
-    margin-bottom: 1.5em;
-    font-family: var(--fonte);
+.footer-colunas h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.footer-colunas a {
+    text-decoration: none;
+    color: var(--cinza-texto);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
 }
